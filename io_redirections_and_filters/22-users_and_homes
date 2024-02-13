@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -o '^[a-zA-Z]*:' /etc/passwd
+cat  /etc/passwd | [200~ls -l | sort -k 3,3 -k 8

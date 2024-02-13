@@ -1,2 +1,2 @@
 #!/bin/bash
-greo -f "(Ôo)'
+grep -f "(Ôo)'

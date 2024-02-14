@@ -1,0 +1,2 @@
+#!/bin/bash
+git commit -m 'variables_and_expansions';git push

@@ -1,2 +1,2 @@
 #!/bin/bash
-set -f | printf "%c " $line | tr -s ' '  '\n' | cut -c 1
+set -f | printf "%c " $line | tr -s '\n' | cut -c 1

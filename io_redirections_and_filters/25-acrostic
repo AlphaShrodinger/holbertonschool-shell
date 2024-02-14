@@ -1,2 +1,2 @@
 #!/bin/bash
-set -f | printf "%c " $line | tr -s '\n' | cut -c 1
+cat acrostic_1 | cut -c 1 | tr -d '/n' | cut -f 1

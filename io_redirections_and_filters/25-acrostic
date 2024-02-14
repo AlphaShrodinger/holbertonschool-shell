@@ -1,2 +1,2 @@
 #!/bin/bash
-1 == "echo"){print $1, "-n", s; s = "";}else print $1, "--they >.said 2>&1";}' > acrostic.sh
+1 == "echo"{print $1, "-n", s; s = "";} print $1, "--they >.said 2>&1";' > acrostic.sh

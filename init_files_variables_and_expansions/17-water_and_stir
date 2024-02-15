@@ -1,2 +1,2 @@
 #!/bin/bash
-printf %o$((5#`echo $`WATER + 5#$STIR))
+sum=$(expr $water + $stir) | sum=$(($WATER + $STIR))

@@ -1,2 +1,2 @@
 #!/bin/bash
-sum=$(expr $water + $stir) | sum=$(($WATER + $STIR)) | echo "sum is: $sum"
+sum=$(expr $water + $stir) | sum=$(($WATER + $STIR)) | echo "sum is: $sum" | tr water 01234` + 5#`echo $STIR | tr 01234567 bestchol
